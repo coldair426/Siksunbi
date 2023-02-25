@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+<div align = "center"><img src="./README_src/logo-full.png" alt="hosaroun-logo"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- 목차 -->
 
-## Available Scripts
+**목차**
 
-In the project directory, you can run:
+<ul>
+    <li><a href="#개요">개요</a></li>
+    <li><a href="#페이지-구성">페이지 구성</a></li>
+    <li><a href="#기능">기능</a></li>
+    <li><a href="#배포주소">배포주소</a></li>
+    <li><a href="#browser-support">Browser Support</a></li>
+    <li><a href="#stacks">Stacks</a></li>
+    <li><a href="#members">Members</a></li>
+</ul>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 개요
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 프로젝트명 : SIKSUNBI
+- 기간 : 2023.02.26. ~ 2023.00.00.
+- 목표 : -
 
-### `npm test`
+# 페이지 구성
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Mobile
 
-### `npm run build`
+# 기능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Responsive Web(CSS)
+- Mobile sticky header(CSS)
+- Mobile navigation box(React)
+- PC navigation bar(React)
+- CSS reset(styled-reset)
+- Location map(Kakao map api)
+- Router(React Router-dom)
+- 현재 페이지 표시(React Router-dom)
+- Copy alert(React Bootstrap)
+- Carousel slider(React Bootstrap)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 앞으로 구현하고자 하는 것은
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-
 
-### `npm run eject`
+# 배포주소
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Browser Support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- <img src = "https://img.shields.io/badge/chrome-support-success?style=flat&logo=googlechrome&logoColor=white&labelColor=4285F4" height = "25x">
+- <img src = "https://img.shields.io/badge/Edge-support-success?style=flat&logo=microsoftedge&logoColor=white&labelColor=0078D7" height = "25px">
+- <img src = "https://img.shields.io/badge/safari-support-success?style=flat&logo=safari&logoColor=white&labelColor=000000" height = "25px">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Stacks
 
-## Learn More
+## Environment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- <img src = "https://img.shields.io/badge/VSCode-007ACC?logo=visual studio code" height = "30px">
+- <img src = "https://img.shields.io/badge/Git-white?logo=git" height = "30px">
+- <img src = "https://img.shields.io/badge/GitHub-181717?logo=github" height = "30px">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Developement
 
-### Code Splitting
+- <img src = "https://img.shields.io/badge/React-white?logo=react" height = "30px">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Members
 
-### Analyzing the Bundle Size
+## 홍
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- https://github.com/coldair426
+- https://velog.io/@coldair426
+- coldair426@gmail.com
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Full README가 보고 싶다면 [velog]()를 참고하세요.**
