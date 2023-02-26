@@ -1,4 +1,4 @@
-<div align = "center"><img src="./README_src/logo-full.png" alt="hosaroun-logo"></div>
+<div align = "center"><img src="./README_src/logo-full.png" alt="hosaroun-logo" width="700px"></div>
 <br/>
 <!-- 목차 -->
 
