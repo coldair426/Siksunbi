@@ -1,0 +1,52 @@
+.nav {
+  display: flex;
+  background-color: #f0a500;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav > img {
+  height: 38px;
+  margin: 6px 10px 0px 15px;
+  position: absolute;
+  left: 0;
+}
+.nav > div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #000000;
+  margin-right: 10px;
+  margin-left: 63px;
+
+  /* 세로 스크롤 기능 자동 동작 */
+  overflow-y: scroll;
+  /* 줄바꿈 방지 */
+  white-space: nowrap;
+  /* 스크롤바 안보이기  */
+  -ms-overflow-style: none; /*익스플로러*/
+  scrollbar-width: none; /*파이어폭스*/
+}
+/* 스크롤바 안보이기 */
+.nav > div::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */
+}
+
+.nav-item {
+  background-color: #ececeb;
+  border: 1px solid #ececeb;
+  border-radius: 12px;
+  margin: 10px 5px 10px 5px;
+  padding: 7px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 15px;
+}
+/* 선택된 메뉴 효과 */
+.nav-active {
+  background-color: #cf7500;
+  border: 0px;
+  color: #ececeb !important;
+}

@@ -1,0 +1,21 @@
+.menu__item {
+  margin: 30px 20px;
+  box-shadow: 5px 5px 3px #dbdbdb;
+}
+.menu__item--body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0;
+}
+.menu__item--body > div:nth-child(1) {
+  margin: 0px 15px;
+  font-weight: 900;
+  font-size: 15px;
+}
+.menu__item--body > div:nth-child(2) {
+  margin: 0px 15px;
+  font-weight: 500;
+  font-size: 13px;
+}

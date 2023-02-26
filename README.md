@@ -28,16 +28,18 @@
 
 # 기능
 
-- Responsive Web(CSS)
-- Mobile sticky header(CSS)
-- Mobile navigation box(React)
-- PC navigation bar(React)
-- CSS reset(styled-reset)
-- Location map(Kakao map api)
+- CSS reset for cross browsing(styled-reset)
+- React Bootstrap
 - Router(React Router-dom)
 - 현재 페이지 표시(React Router-dom)
+
+- @media (prefers-color-scheme: dark) 를 이용한 다크모드 적용 하기
+
+<!-- - Mobile sticky header(CSS)
+- Mobile navigation box(React)
+- Location map(Kakao map api)
 - Copy alert(React Bootstrap)
-- Carousel slider(React Bootstrap)
+- Carousel slider(React Bootstrap) -->
 
 ## 앞으로 구현하고자 하는 것은
 
