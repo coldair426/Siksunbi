@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-function Menu() {
+function MenuContents() {
   return (
     <div>
       <Card className='menu__item'>
@@ -15,4 +15,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default MenuContents;

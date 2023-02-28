@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-function Introduction() {
+function MenuIntroduction() {
   return (
     <Card className='introduction__item'>
       <Card.Img variant='top' src='./img/introduction.png' alt='menuImage' />
@@ -21,4 +21,4 @@ function Introduction() {
   );
 }
 
-export default Introduction;
+export default MenuIntroduction;

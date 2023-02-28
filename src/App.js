@@ -1,4 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+// 임시db
+import pseudoDb from './pseudo-db.json';
+
 // CSS reset
 import { Reset } from 'styled-reset';
 // react-router-dom
@@ -6,33 +10,30 @@ import { Routes, Route } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+// Menu CSS
+import './style/MenuIntroduction.css';
+import './style/MenuContents.css';
 
-import './style/Header.css';
-import './style/Footer.css';
-import './style/Nav.css';
-import './style/Introduction.css';
-import './style/Menu.css';
-
-import Header from './component/Header';
-import Footer from './component/Footer';
-import Nav from './component/Nav';
-import Introduction from './component/Introduction';
-import Menu from './component/Menu';
+import Menu from './page/Menu';
+// Menu JS
+import MenuIntroduction from './component/MenuIntroduction';
+import MenuContents from './component/MenuContents';
 
 function App() {
+  const [pseudoData] = useState(JSON.parse(pseudoDb));
+
   return (
     <React.Fragment>
       <Reset />
-      <Header />
-      <Nav />
       <Routes>
-        <Route path='/' element={<Introduction />} />
-        <Route path='/best' element={<Menu />} />
-        <Route path='/oneman' element={<div></div>} />
-        <Route path='/couple' element={<div></div>} />
-        <Route path='/familyset' element={<div></div>} />
+        <Route path='/' element={<>식선비홍보페이지</>} />
+        <Route path='/deraeun/admin' element={<div>관리자페이지</div>} />
+        <Route path='/deraeun' element={<Menu />}>
+          <Route path='intro' element={<MenuIntroduction />} />
+          <Route path='1' element={<MenuContents />} />
+        </Route>
+        <Route path='*' element={<>없는페이지에요.</>} />
       </Routes>
-      <Footer />
     </React.Fragment>
   );
 }
