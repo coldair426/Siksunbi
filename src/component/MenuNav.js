@@ -1,28 +1,28 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React, { useEffect } from 'react';
 
-function MenuNav() {
+function MenuNav({ category, active, setActive }) {
+  // 활성화된 버튼 스타일 적용
+  useEffect(() => {
+    // 스타일 적용 실행
+    document.querySelectorAll('button')[active].classList.add('nav-active');
+    // 스타일 적용 전 먼저 실행(clean up func)
+    return () => {
+      document.querySelectorAll('button')[active].classList.remove('nav-active');
+    };
+  }, [active]); // active가 변할 때 마다 실행
   return (
     <nav className='nav'>
       <img src='/icon/language.png' alt='translate-icon' />
       <div>
-        <NavLink className={({ isActive }) => (isActive ? 'nav-item nav-active' : 'nav-item')} to={'/래운이네만두/intro'}>
+        <button onClick={() => setActive(0)} className={'nav-item'}>
           소개
-        </NavLink>
-        <NavLink className={({ isActive }) => (isActive ? 'nav-item nav-active' : 'nav-item')} to={'/래운이네만두/1'}>
-          대표메뉴
-        </NavLink>
-        <NavLink className={({ isActive }) => (isActive ? 'nav-item nav-active' : 'nav-item')} to={'/래운이네만두/2'}>
-          1인메뉴
-        </NavLink>
-        <NavLink className={({ isActive }) => (isActive ? 'nav-item nav-active' : 'nav-item')} to={'/래운이네만두/3'}>
-          커플메뉴
-        </NavLink>
-        <NavLink className={({ isActive }) => (isActive ? 'nav-item nav-active' : 'nav-item')} to={'/래운이네만두/4'}>
-          가족메뉴
-        </NavLink>
-        <NavLink className='nav-item'>배달메뉴</NavLink>
-        <NavLink className='nav-item'>음료&주류</NavLink>
+        </button>
+        {/* category 별로 button 생성 */}
+        {category.map((v, i) => (
+          <button onClick={() => setActive(i + 1)} key={`${v}${i}`} className={'nav-item'}>
+            {v}
+          </button>
+        ))}
       </div>
     </nav>
   );

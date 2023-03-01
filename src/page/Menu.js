@@ -1,22 +1,45 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import '../style/MenuHeader.css';
 import '../style/MenuFooter.css';
 import '../style/MenuNav.css';
+import '../style/MenuIntroduction.css';
+import '../style/MenuContents.css';
 
 import MenuHeader from '../component/MenuHeader';
 import MenuFooter from '../component/MenuFooter';
 import MenuNav from '../component/MenuNav';
+import MenuIntroduction from './../component/MenuIntroduction';
+import MenuContents from '../component/MenuContents';
+import { useParams } from 'react-router-dom';
 
-// react-router-dom
-import { Outlet } from 'react-router-dom';
+function Menu({ infoData, menuData }) {
+  const { id } = useParams(); // URL 파라미터
+  // id(URL파라미터)로 데이터 픽
+  const [info] = useState(infoData.find((v) => v.id === id));
+  const [menu] = useState(menuData.filter((v) => v.id === id));
+  // db categry 배열
+  let category = [];
+  menu.map((v) => category.push(v.category));
+  // db category 중복제거
+  category = new Set(category);
+  category = Array.from(category);
+  // category 선택 변수
+  const [active, setActive] = useState(0);
+  // category가 변경 되었을 때 스크롤 맨위로 이동
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [active]);
 
-function Menu() {
   return (
     <div>
-      <MenuHeader />
-      <MenuNav />
-      <Outlet />
+      <MenuHeader info={info} setActive={setActive} />
+      <MenuNav category={category} active={active} setActive={setActive} />
+      {active === 0 && <MenuIntroduction info={info} />}
+      {category.map((cate, i) => {
+        const menuByCategory = menu.filter((v) => v.category === cate);
+        return active === i + 1 && <MenuContents key={`${cate}${i}`} menuByCategory={menuByCategory} />;
+      })}
       <MenuFooter />
     </div>
   );
