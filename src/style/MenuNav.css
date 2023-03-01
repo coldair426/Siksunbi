@@ -34,6 +34,17 @@
   display: none; /* 크롬, 사파리, 오페라, 엣지 */
 }
 
+.nav-intro {
+  background-color: #ececeb;
+  border: 1px solid #ececeb;
+  border-radius: 12px;
+  margin: 10px 5px 10px 0px;
+  padding: 7px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 15px;
+  border: 0px;
+}
 .nav-item {
   background-color: #ececeb;
   border: 1px solid #ececeb;

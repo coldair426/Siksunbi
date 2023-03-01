@@ -1,0 +1,23 @@
+.ssbHeader {
+  background-color: #f0a500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.ssbHeader__button {
+  height: 100%;
+}
+.ssbHeader__logo {
+  height: 33px;
+  margin-left: 15px;
+}
+.ssbHeader__dotIcon {
+  height: 14px;
+  margin-right: 15px;
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function MenuHeader({ info, setActive }) {
   return (
-    <header>
+    <header className='menuHeader'>
       <div className='header'>
         <Link to={'/'}>
           <img className='header__logo' src='/logo/logo-full.png' alt='siksunbi-logo' />
