@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 
 // 임시db
-import pseudoDb from './pseudo-db.json';
+import adminData from './pseudo-db.json';
+import adminMenu from './pseudo-db-menus.json';
 
 // CSS reset
 import { Reset } from 'styled-reset';
@@ -20,7 +21,9 @@ import MenuIntroduction from './component/MenuIntroduction';
 import MenuContents from './component/MenuContents';
 
 function App() {
-  const [pseudoData] = useState(JSON.parse(pseudoDb));
+  const [data] = useState(adminData);
+  const [menu] = useState(adminMenu);
+  console.log(data[0].menu);
 
   return (
     <React.Fragment>

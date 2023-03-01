@@ -5,132 +5,22 @@
     "number": "048-213-2131",
     "address": "서울특별시 다로14",
     "content": "꽃이 동산에는 수 따뜻한 뿐이다. 이상이 웅대한 이상 되려니와, 있을 두기 영원히 군영과 뿐이다. 주는 그들에게 하는 커다란 이것이다. 어디 몸이 이것이야말로 곳이 봄바람을 피는 쓸쓸하랴? 전인 피는 할지라도 장식하는 힘있다. 보는 사람은 봄날의 넣는 찬미를 부패를 그들은 목숨이 아름다우냐?",
-    "img": "/pseudo-server/chairs-g88a462abf_640.jpg",
-    "menu": {
-      "대표": [
-        ["스테이크", "80000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["치킨", "30000", "/pseudo-server/chicken-g0b197e37a_640.jpg"],
-        ["연어스테이크", "70000", "/pseudo-server/salmon-gda88551f9_640.jpg"]
-      ],
-      "단품": [
-        ["불고기피자", "10000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["치킨", "30000", "/pseudo-server/chicken-g0b197e37a_640.jpg"],
-        ["생선스테이크", "50000", "/pseudo-server/salmon-gad746151b_640.jpg"]
-      ],
-      "커플세트": [
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["귤", "70000", "/pseudo-server/tangerines-gbfcffeeb8_640.jpg"]
-      ],
-      "3인세트": [
-        ["귤", "70000", "/pseudo-server/tangerines-gbfcffeeb8_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["케이크", "30000", "/pseudo-server/cupcake-g7108dac2d_640.jpg"],
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"]
-      ],
-      "4인세트": [
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["아이스크림", "10000", "/pseudo-server/ice-cream-g94b90d5cf_640.jpg"],
-        ["연어스테이크", "70000", "/pseudo-server/salmon-gda88551f9_640.jpg"]
-      ],
-      "디저트": [
-        ["아이스크림", "10000", "/pseudo-server/ice-cream-g94b90d5cf_640.jpg"],
-        ["케이크", "30000", "/pseudo-server/cupcake-g7108dac2d_640.jpg"],
-        ["샌드위치", "70000", "/pseudo-server/diet-g857a8b7f8_640.jpg"]
-      ],
-      "음료": [
-        ["모히또", "5000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["오렌지주스", "5000", "/pseudo-server/orange-g924539259_640.jpg"],
-        ["콜라", "5000", "/pseudo-server/drink-gc266700ae_640.jpg"]
-      ]
-    }
+    "img": "/pseudo-server/chairs-g88a462abf_640.jpg"
   },
-
   {
     "id": "cafecalmdown",
     "title": "캄다운커피",
     "number": "088-333-2131",
     "address": "경기도 시흥시 가로45",
     "content": "이것이야말로 이상의 얼마나 말이다. 청춘의 용기가 같지 기관과 가치를 있으랴? 같은 눈에 예가 풀이 귀는 힘있다. 같이, 예수는 트고, 따뜻한 미묘한 방황하였으며, 때문이다. 용감하고 무엇이 풀밭에 것이다. 현저하게 넣는 속에서 인간은 듣기만 가치를 위하여 끝에 청춘 칼이다. 것은 이 품으며, 수 얼음에 봄바람이다.",
-    "img": "/pseudo-server/city-ge52dac6e0_640.jpg",
-    "menu": {
-      "BEST": [
-        ["모히또", "5000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["오렌지주스", "5000", "/pseudo-server/orange-g924539259_640.jpg"],
-        ["콜라", "5000", "/pseudo-server/drink-gc266700ae_640.jpg"]
-      ],
-      "식사": [
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["아이스크림", "10000", "/pseudo-server/ice-cream-g94b90d5cf_640.jpg"],
-        ["연어스테이크", "70000", "/pseudo-server/salmon-gda88551f9_640.jpg"]
-      ],
-      "간식": [
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["귤", "70000", "/pseudo-server/tangerines-gbfcffeeb8_640.jpg"]
-      ],
-      "커플세트": [
-        ["스테이크", "80000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["치킨", "30000", "/pseudo-server/chicken-g0b197e37a_640.jpg"],
-        ["연어스테이크", "70000", "/pseudo-server/salmon-gda88551f9_640.jpg"]
-      ],
-      "디저트": [
-        ["불고기피자", "10000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["치킨", "30000", "/pseudo-server/chicken-g0b197e37a_640.jpg"],
-        ["생선스테이크", "50000", "/pseudo-server/salmon-gad746151b_640.jpg"]
-      ],
-      "음료": [
-        ["모히또", "5000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["오렌지주스", "5000", "/pseudo-server/orange-g924539259_640.jpg"],
-        ["콜라", "5000", "/pseudo-server/drink-gc266700ae_640.jpg"]
-      ]
-    }
+    "img": "/pseudo-server/city-ge52dac6e0_640.jpg"
   },
-
   {
     "id": "pearl548",
     "title": "Pearl",
     "number": "058-213-1121",
     "address": "제주특별자치도 제주시 감귤로5",
     "content": "작고 보이는 얼마나 생의 위하여서, 끓는 이것이다. 실현에 온갖 커다란 뼈 오아이스도 이것을 위하여, 불어 아름다우냐? 옷을 풀이 군영과 무엇을 청춘의 실로 부패뿐이다. 보이는 안고, 얼음 것이다. 어디 대고, 밝은 실로 것이다. 피가 보이는 커다란 싶이 뭇 그리하였는가?",
-    "img": "/pseudo-server/outdoor-dining-g41210c7dc_640.jpg",
-    "menu": {
-      "추천": [
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["아이스크림", "10000", "/pseudo-server/ice-cream-g94b90d5cf_640.jpg"],
-        ["연어스테이크", "70000", "/pseudo-server/salmon-gda88551f9_640.jpg"]
-      ],
-      "식사": [
-        ["페퍼로니피자", "30000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["석류", "30000", "/pseudo-server/pomegranate-g9ab9d08f3_640.jpg"],
-        ["귤", "70000", "/pseudo-server/tangerines-gbfcffeeb8_640.jpg"]
-      ],
-      "커플세트": [
-        ["아이스크림", "10000", "/pseudo-server/ice-cream-g94b90d5cf_640.jpg"],
-        ["케이크", "30000", "/pseudo-server/cupcake-g7108dac2d_640.jpg"],
-        ["샌드위치", "70000", "/pseudo-server/diet-g857a8b7f8_640.jpg"]
-      ],
-      "3인세트": [
-        ["스테이크", "80000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["치킨", "30000", "/pseudo-server/chicken-g0b197e37a_640.jpg"],
-        ["연어스테이크", "70000", "/pseudo-server/salmon-gda88551f9_640.jpg"]
-      ],
-      "4인세트": [
-        ["불고기피자", "10000", "/pseudo-server/pizza-gf4801d903_640.jpg"],
-        ["치킨", "30000", "/pseudo-server/chicken-g0b197e37a_640.jpg"],
-        ["생선스테이크", "50000", "/pseudo-server/salmon-gad746151b_640.jpg"]
-      ],
-      "음료": [
-        ["모히또", "5000", "/pseudo-server/barbecue-g3cb2ebd57_640.jpg"],
-        ["오렌지주스", "5000", "/pseudo-server/orange-g924539259_640.jpg"],
-        ["콜라", "5000", "/pseudo-server/drink-gc266700ae_640.jpg"]
-      ]
-    }
+    "img": "/pseudo-server/outdoor-dining-g41210c7dc_640.jpg"
   }
 ]
