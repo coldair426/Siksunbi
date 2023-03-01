@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MenuFooter() {
+function Footer() {
   return (
     <footer className='footer'>
       <a href='https://www.naver.com/'>
@@ -11,4 +11,4 @@ function MenuFooter() {
   );
 }
 
-export default MenuFooter;
+export default Footer;

@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 import '../style/MenuHeader.css';
-import '../style/MenuFooter.css';
 import '../style/MenuNav.css';
 import '../style/MenuIntroduction.css';
 import '../style/MenuContents.css';
 import '../style/FalsePage.css';
 
 import MenuHeader from '../component/MenuHeader';
-import MenuFooter from '../component/MenuFooter';
 import MenuNav from '../component/MenuNav';
 import MenuIntroduction from './../component/MenuIntroduction';
 import MenuContents from '../component/MenuContents';
@@ -47,7 +45,6 @@ function Menu({ infoData, menuData }) {
             const menuByCategory = menu.filter((v) => v.category === cate);
             return active === i + 1 && <MenuContents key={`${cate}${i}`} menuByCategory={menuByCategory} />;
           })}
-          <MenuFooter />
         </>
       ) : (
         <FalsePage />
