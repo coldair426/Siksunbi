@@ -23,7 +23,6 @@ function App() {
         <Route path='/' element={<>식선비홍보페이지</>} />
         <Route path='/deraeun/admin' element={<div>관리자페이지</div>} />
         <Route path='/:id' element={<Menu infoData={infoData} menuData={menuData} />} />
-        <Route path='*' element={<>없는페이지에요.</>} />
       </Routes>
     </React.Fragment>
   );

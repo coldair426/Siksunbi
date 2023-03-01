@@ -5,16 +5,20 @@ import '../style/MenuFooter.css';
 import '../style/MenuNav.css';
 import '../style/MenuIntroduction.css';
 import '../style/MenuContents.css';
+import '../style/FalsePage.css';
 
 import MenuHeader from '../component/MenuHeader';
 import MenuFooter from '../component/MenuFooter';
 import MenuNav from '../component/MenuNav';
 import MenuIntroduction from './../component/MenuIntroduction';
 import MenuContents from '../component/MenuContents';
+import FalsePage from './FalsePage';
+
 import { useParams } from 'react-router-dom';
 
 function Menu({ infoData, menuData }) {
   const { id } = useParams(); // URL 파라미터
+
   // id(URL파라미터)로 데이터 픽
   const [info] = useState(infoData.find((v) => v.id === id));
   const [menu] = useState(menuData.filter((v) => v.id === id));
@@ -33,14 +37,21 @@ function Menu({ infoData, menuData }) {
 
   return (
     <div>
-      <MenuHeader info={info} setActive={setActive} />
-      <MenuNav category={category} active={active} setActive={setActive} />
-      {active === 0 && <MenuIntroduction info={info} />}
-      {category.map((cate, i) => {
-        const menuByCategory = menu.filter((v) => v.category === cate);
-        return active === i + 1 && <MenuContents key={`${cate}${i}`} menuByCategory={menuByCategory} />;
-      })}
-      <MenuFooter />
+      {/* db에 존재하는 id 일때 */}
+      {!!infoData.find((v) => v.id === id) ? (
+        <>
+          <MenuHeader info={info} setActive={setActive} />
+          <MenuNav category={category} active={active} setActive={setActive} />
+          {active === 0 && <MenuIntroduction info={info} />}
+          {category.map((cate, i) => {
+            const menuByCategory = menu.filter((v) => v.category === cate);
+            return active === i + 1 && <MenuContents key={`${cate}${i}`} menuByCategory={menuByCategory} />;
+          })}
+          <MenuFooter />
+        </>
+      ) : (
+        <FalsePage />
+      )}
     </div>
   );
 }

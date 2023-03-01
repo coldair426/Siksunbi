@@ -1,0 +1,34 @@
+.FalsePage {
+  text-align: center;
+  height: 100vh;
+}
+.FalsePage > div > div {
+  padding-top: 24vh;
+}
+.FalsePage div > div:nth-child(1) {
+  font-size: 90px;
+  font-weight: 900;
+  color: #aaaaaa;
+}
+.FalsePage div > div:nth-child(2) {
+  padding: 0px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 25px;
+}
+.FalsePage div > div:nth-child(3) {
+  padding: 0px;
+  margin-top: 25px;
+  line-height: 20px;
+  font-size: 15px;
+}
+.FalsePage__goHome {
+  margin-top: 60px;
+  padding: 8px;
+  font-weight: 900;
+  background-color: #f0a500;
+  border: #f0a500;
+  font-size: 20px;
+  border-radius: 15px;
+}
