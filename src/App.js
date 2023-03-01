@@ -12,30 +12,25 @@ import { Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 // Menu CSS
-import './style/MenuIntroduction.css';
 import './style/MenuContents.css';
 
 import Menu from './page/Menu';
 // Menu JS
-import MenuIntroduction from './component/MenuIntroduction';
 import MenuContents from './component/MenuContents';
 
 function App() {
   const [data] = useState(adminData);
   const [menu] = useState(adminMenu);
-  console.log(data[0].menu);
 
   return (
     <React.Fragment>
       <Reset />
       <Routes>
         <Route path='/' element={<>식선비홍보페이지</>} />
-        <Route path='/deraeun/admin' element={<div>관리자페이지</div>} />
-        <Route path='/deraeun' element={<Menu />}>
-          <Route path='intro' element={<MenuIntroduction />} />
-          <Route path='1' element={<MenuContents />} />
-        </Route>
-        <Route path='*' element={<>없는페이지에요.</>} />
+        <Route path='/:id' element={<Menu data={data} menu={menu} />} />
+        <Route path='/:id/menu' element={<MenuContents />} />
+        <Route path='/:id/admin' element={<div>관리자페이지</div>} />
+        <Route path='*' element={<>존재하지 않는 페이지</>} />
       </Routes>
     </React.Fragment>
   );
