@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 // 임시db
-import adminData from './pseudo-db.json';
-import adminMenu from './pseudo-db-menus.json';
+import restaurantData from './pseudo-db.json';
+import restaurantMenu from './pseudo-db-menus.json';
 
 // CSS reset
 import { Reset } from 'styled-reset';
@@ -21,17 +21,13 @@ import MenuIntroduction from './component/MenuIntroduction';
 import MenuContents from './component/MenuContents';
 
 function App() {
-  const [data] = useState(adminData);
-  const [menu] = useState(adminMenu);
-  console.log(data[0].menu);
-
   return (
     <React.Fragment>
       <Reset />
       <Routes>
         <Route path='/' element={<>식선비홍보페이지</>} />
         <Route path='/deraeun/admin' element={<div>관리자페이지</div>} />
-        <Route path='/deraeun' element={<Menu />}>
+        <Route path='/:id' element={<Menu />}>
           <Route path='intro' element={<MenuIntroduction />} />
           <Route path='1' element={<MenuContents />} />
         </Route>
