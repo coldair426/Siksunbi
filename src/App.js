@@ -1,8 +1,8 @@
 import React from 'react';
 
 // 임시db
-import infoData from '../public/pseudo-server/pseudo-db.json';
-import menuData from '../public/pseudo-server/pseudo-db-menus.json';
+import infoData from './pseudo-db.json';
+import menuData from './pseudo-db-menus.json';
 
 // CSS reset
 import { Reset } from 'styled-reset';
