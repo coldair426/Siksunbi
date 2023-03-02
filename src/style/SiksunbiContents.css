@@ -1,7 +1,6 @@
 .siksunbi-contents {
   display: flex;
   flex-direction: column;
-  height: 500vh;
 }
 .siksunbi-contents__link {
   display: flex;
