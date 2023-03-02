@@ -1,14 +1,14 @@
 import React from 'react';
 
-import SiksunbiContents from './../component/SiksunbiContents';
+import SiksunbiAddRecent from '../component/SiksunbiAddRecent';
 import Header from './../component/Header';
-import '../style/SiksunbiContents.css';
+import '../style/SiksunbiAddRecent.css';
 
 function Siksunbi({ infoData }) {
   return (
     <>
       <Header></Header>
-      <SiksunbiContents infoData={infoData} />
+      <SiksunbiAddRecent infoData={infoData} />
     </>
   );
 }
