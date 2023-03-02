@@ -1,13 +1,15 @@
+.siksunbi-add-recent {
+  margin-bottom: 30px;
+}
 .siksunbi-add-recent__title {
   margin: 25px 20px;
 }
 .siksunbi-add-recent__title > span {
   font-size: 20px;
   background-color: #cf7500;
-  border-radius: 15px;
+  border-radius: 30px;
   text-align: center;
-  padding: 10px;
-  padding-left: 13px;
+  padding: 10px 15px 10px 18px;
   color: #ececeb;
   font-weight: 900;
 }

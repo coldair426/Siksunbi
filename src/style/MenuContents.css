@@ -1,6 +1,7 @@
 .menu__item {
   margin: 30px 20px;
   box-shadow: 5px 5px 3px #dbdbdb;
+  border: none;
 }
 .menu__item--body {
   display: flex;
