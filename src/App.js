@@ -26,7 +26,7 @@ function App() {
       <Reset />
       <Routes>
         <Route path='/' element={<Siksunbi infoData={infoData} />} />
-        <Route path='/deraeun/admin' element={<div>관리자페이지</div>} />
+        <Route path='/:id/admin' element={<div>관리자페이지</div>} />
         <Route path='/:id' element={<Menu infoData={infoData} menuData={menuData} />} />
       </Routes>
       <Footer />

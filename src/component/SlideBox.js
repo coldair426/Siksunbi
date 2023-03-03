@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-function SlideBox({ slidebox, setSlidebox }) {
+function SlideBox({ slidebox, setSlidebox, userInfo }) {
+  // slideBox active 부모요소 스크롤 정지
   useEffect(() => {
     document.body.style.overflow = 'hidden';
     return () => {
@@ -21,13 +22,11 @@ function SlideBox({ slidebox, setSlidebox }) {
         <div className='slide-box'>
           <div className='slide-box__header'>My</div>
           <div className='slide-box__main'>
-            <Link>
-              <div>로그인</div>
-            </Link>
-            <Link>
+            <div>{userInfo.id}</div>
+            <Link to={`/${userInfo.id}`}>
               <div>내 가게 메뉴 보기</div>
             </Link>
-            <Link>
+            <Link to={`/${userInfo.id}/admin`}>
               <div>관리자 페이지</div>
             </Link>
           </div>
