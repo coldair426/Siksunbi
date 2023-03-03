@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-function SlideBox({ slidebox, setSlidebox, userInfo }) {
+function SlideBox({ slidebox, setSlidebox, userOwnedData }) {
   // slideBox active 부모요소 스크롤 정지
   useEffect(() => {
     document.body.style.overflow = 'hidden';
@@ -14,6 +14,7 @@ function SlideBox({ slidebox, setSlidebox, userInfo }) {
     <>
       <div
         className='mask'
+        // mask 클릭시 close
         onClick={() => {
           setSlidebox(false);
         }}
@@ -22,13 +23,31 @@ function SlideBox({ slidebox, setSlidebox, userInfo }) {
         <div className='slide-box'>
           <div className='slide-box__header'>My</div>
           <div className='slide-box__main'>
-            <div>{userInfo.id}</div>
-            <Link to={`/${userInfo.id}`}>
-              <div>내 가게 메뉴 보기</div>
-            </Link>
-            <Link to={`/${userInfo.id}/admin`}>
-              <div>관리자 페이지</div>
-            </Link>
+            <div className='slide-box__main--row'>
+              <NavLink className={({ isActive }) => (isActive ? 'slide-box-active' : undefined)} to={'/'}>
+                <img src='/icon/home.png' alt='home' />
+                <div>HOME</div>
+              </NavLink>
+              <Link to={`/${userOwnedData.id}`}>
+                <img src='/icon/menu.png' alt='menu' />
+                <div>메뉴판</div>
+              </Link>
+            </div>
+            <div className='slide-box__main--row'>
+              <a href={'https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=http://ssb.dothome.co.kr/' + userOwnedData.id} target='_blank' rel='noreferrer' title='QR-Code'>
+                <img src='/icon/qrcode.png' alt='qr-code' />
+                <div>QR코드</div>
+              </a>
+              <NavLink className={({ isActive }) => (isActive ? 'slide-box-active' : undefined)} to={`/${userOwnedData.id}/admin`}>
+                <img src='/icon/admin.png' alt='admin' />
+                <div>설정</div>
+              </NavLink>
+            </div>
+            <div className='slide-box__main--login'>
+              <img src='/logo/logo-sq-w.png' alt='logo' />
+              <div>{userOwnedData.id}</div>
+              <button>로그아웃</button>
+            </div>
           </div>
         </div>
         <button

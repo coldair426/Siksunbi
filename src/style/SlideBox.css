@@ -24,20 +24,57 @@
   padding: 10px 0px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  font-size: 22px;
-  font-weight: 900;
   color: #ececeb;
   height: 55px;
+  font-size: 22px;
+  font-weight: 900;
 }
-.slide-box__main div {
-  border-bottom: 1px solid #ececeb;
-  color: #f0a500;
-  height: 70px;
+.slide-box__main--row {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  color: #f0a500;
+  border-bottom: 1px solid #ececeb;
+  font-size: 17px;
   font-weight: 900;
+  height: 40vw;
+}
+.slide-box__main--row img {
+  height: 35px;
+  margin-bottom: 5px;
+}
+.slide-box__main--row > a:nth-child(1) {
+  border-right: 1px solid #ececeb;
+}
+.slide-box__main--row > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.slide-box__main--login {
+  background-color: #f0a500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ececeb;
+  font-size: 20px;
+  font-weight: 900;
+  height: 25vw;
+}
+.slide-box__main--login > img {
+  height: 35px;
+  margin-right: 10px;
+}
+.slide-box__main--login > button {
+  margin-left: 10px;
+  border: 1px solid #cf7500;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 3px;
+  background-color: #cf7500;
 }
 .slide-box__close {
   display: flex;
@@ -47,4 +84,8 @@
 .slide-box__close img {
   height: 40px;
   margin-top: 30px;
+}
+/* 활성화된 페이지 표시 */
+.slide-box-active {
+  background-color: #ececeb;
 }
