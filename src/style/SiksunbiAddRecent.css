@@ -2,10 +2,10 @@
   margin-bottom: 30px;
 }
 .siksunbi-add-recent__title {
-  margin: 25px 20px;
+  margin: 20px 20px;
 }
 .siksunbi-add-recent__title > span {
-  font-size: 20px;
+  font-size: 16px;
   background-color: #cf7500;
   border-radius: 30px;
   text-align: center;
@@ -24,7 +24,7 @@
 }
 /* card title */
 .siksunbi-add-recent__card > div > div:nth-child(1) {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 900;
 }
 /* card sub title */

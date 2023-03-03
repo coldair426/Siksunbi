@@ -8,12 +8,12 @@ import '../style/SiksunbiAddRecent.css';
 import '../style/SlideBox.css';
 
 function Siksunbi({ infoData }) {
-  const [slidebox, setSlidebox] = useState(1);
+  const [slidebox, setSlidebox] = useState(false);
 
   return (
     <>
-      <Header></Header>
-      <SlideBox slidebox={slidebox} setSlidebox={setSlidebox} />
+      <Header setSlidebox={setSlidebox} />
+      {slidebox && <SlideBox slidebox={slidebox} setSlidebox={setSlidebox} />}
       <SiksunbiAddRecent infoData={infoData} />
     </>
   );
