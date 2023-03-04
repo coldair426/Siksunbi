@@ -64,16 +64,16 @@
   font-weight: 900;
   height: 25vw;
 }
-.slide-box__main--login > img {
+/* .slide-box__main--login > img {
   height: 35px;
   margin-right: 10px;
-}
+} */
 .slide-box__main--login > button {
   margin-left: 10px;
   border: 1px solid #cf7500;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 900;
-  padding: 3px;
+  padding: 5px;
   background-color: #cf7500;
 }
 .slide-box__close {

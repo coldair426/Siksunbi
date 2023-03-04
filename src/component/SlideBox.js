@@ -45,7 +45,7 @@ function SlideBox({ slidebox, setSlidebox, userOwnedData }) {
               </NavLink>
             </div>
             <div className='slide-box__main--login'>
-              <img src='/logo/logo-sq-w.png' alt='logo' />
+              {/* <img src='/logo/logo-sq-w.png' alt='logo' /> */}
               <div>{userOwnedData.id}</div>
               <button>로그아웃</button>
             </div>
