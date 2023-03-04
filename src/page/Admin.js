@@ -19,8 +19,12 @@ function Admin({ userOwnedInfoData, userOwnedMenuData, slidebox, setSlidebox }) 
     setSlidebox(false);
   }, [setSlidebox]);
 
+  // category가 변경 되었을 때 스크롤 맨위로 이동
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
-    <>
+    <div className='admin'>
       <Header setSlidebox={setSlidebox} />
       {slidebox && <SlideBox slidebox={slidebox} setSlidebox={setSlidebox} userOwnedInfoData={userOwnedInfoData} />}
       <TitleBox title='내 정보' />
@@ -55,33 +59,34 @@ function Admin({ userOwnedInfoData, userOwnedMenuData, slidebox, setSlidebox }) 
       </div>
       <div>
         <TitleBox title='업체 메뉴' />
-        {category.map((v) => (
-          <>
-            <div className='admin__user-subtitle'>
-              <span>{v}</span>
+
+        {category.map((v, i) => (
+          <div key={v + i}>
+            <div className='admin__user-subtitle' key={'subtitle' + i}>
+              <span key={'subtitle-span' + i}>{v}</span>
             </div>
-            <div className='admin__user-menu'>
-              <div>
+            <div className='admin__user-menu' key={'menu' + i}>
+              <div key={'menu-div' + i}>
                 {userOwnedMenuData
                   .filter((menu) => menu.category === v)
-                  .map((menu) => (
-                    <>
-                      <Form.Control type='file' />
-                      <InputGroup className='mb-3'>
-                        <Form.Control defaultValue={menu.name} />
-                        <Form.Control defaultValue={menu.price} />
+                  .map((menu, index) => (
+                    <div key={menu + index}>
+                      <Form.Control type='file' key={'file' + index} />
+                      <InputGroup className='mb-3' key={'mb-3' + index}>
+                        <Form.Control defaultValue={menu.name} key={'mb-31' + index} />
+                        <Form.Control defaultValue={menu.price} key={'mb-32' + index} />
                       </InputGroup>
-                    </>
+                    </div>
                   ))}
               </div>
-              <button className='admin__user-submit' type='submit'>
+              <button className='admin__user-submit' type='submit' key={'submit' + i}>
                 저장
               </button>
             </div>
-          </>
+          </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

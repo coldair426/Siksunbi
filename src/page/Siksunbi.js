@@ -10,9 +10,14 @@ import '../style/SiksunbiAddRecent.css';
 import '../style/SlideBox.css';
 
 function Siksunbi({ infoData, userOwnedInfoData, slidebox, setSlidebox }) {
+  // slidebox 자동 닫기
   useEffect(() => {
     setSlidebox(false);
   }, [setSlidebox]);
+  // category가 변경 되었을 때 스크롤 맨위로 이동
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Header setSlidebox={setSlidebox} />
