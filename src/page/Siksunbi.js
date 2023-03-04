@@ -8,16 +8,15 @@ import NoticeBox from './../component/NoticeBox';
 
 import '../style/SiksunbiAddRecent.css';
 import '../style/SlideBox.css';
-import '../style/TitleBox.css';
 
-function Siksunbi({ infoData, userOwnedData, slidebox, setSlidebox }) {
+function Siksunbi({ infoData, userOwnedInfoData, slidebox, setSlidebox }) {
   useEffect(() => {
     setSlidebox(false);
   }, [setSlidebox]);
   return (
     <>
       <Header setSlidebox={setSlidebox} />
-      {slidebox && <SlideBox slidebox={slidebox} setSlidebox={setSlidebox} userOwnedData={userOwnedData} />}
+      {slidebox && <SlideBox slidebox={slidebox} setSlidebox={setSlidebox} userOwnedInfoData={userOwnedInfoData} />}
       <TitleBox title='Notice' />
       <NoticeBox />
       <TitleBox title='최근에 추가했어요' />

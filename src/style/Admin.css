@@ -1,0 +1,38 @@
+.admin__user-info,
+.admin__user-menu {
+  width: 80%;
+  margin: 0px 10%;
+  text-align: center;
+}
+/* input 제목 */
+.input-group-text {
+  background-color: #dbdbdb;
+  font-weight: 900;
+}
+/* 소개말 */
+#admin__user-info--intro {
+  min-height: 150px;
+}
+/* 저장 버튼 */
+.admin__user-submit {
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #f0a500;
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: #ececeb;
+  font-weight: 900;
+}
+/* sub-title */
+.admin__user-subtitle {
+  margin: 30px 20px 20px 40px;
+}
+.admin__user-subtitle > span {
+  font-size: 13px;
+  background-color: #cf7500;
+  border-radius: 10px;
+  text-align: center;
+  padding: 7px;
+  color: #ececeb;
+  font-weight: 900;
+}

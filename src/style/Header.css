@@ -8,6 +8,7 @@
   border-bottom-right-radius: 15px;
   position: sticky;
   top: 0;
+  z-index: 80;
 }
 .ssbHeader__button {
   height: 100%;
