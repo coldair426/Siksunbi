@@ -23,7 +23,7 @@ import Admin from './page/Admin';
 
 function App() {
   // user owned data
-  const [userOwnedData] = useState(infoData[0]);
+  const [userOwnedData] = useState(infoData[5]);
   // slidebox 버튼
   const [slidebox, setSlidebox] = useState(false);
 

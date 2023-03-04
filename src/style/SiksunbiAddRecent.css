@@ -1,18 +1,6 @@
 .siksunbi-add-recent {
   margin-bottom: 30px;
 }
-.siksunbi-add-recent__title {
-  margin: 20px 20px;
-}
-.siksunbi-add-recent__title > span {
-  font-size: 16px;
-  background-color: #cf7500;
-  border-radius: 30px;
-  text-align: center;
-  padding: 10px 15px 10px 18px;
-  color: #ececeb;
-  font-weight: 900;
-}
 .siksunbi-add-recent__card {
   box-shadow: 5px 5px 3px #dbdbdb;
   margin: 10px 20px;

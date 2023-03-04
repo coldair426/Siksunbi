@@ -1,0 +1,12 @@
+.title-box {
+  margin: 20px 20px;
+}
+.title-box > span {
+  font-size: 16px;
+  background-color: #cf7500;
+  border-radius: 30px;
+  text-align: center;
+  padding: 10px 15px;
+  color: #ececeb;
+  font-weight: 900;
+}

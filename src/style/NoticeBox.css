@@ -1,0 +1,18 @@
+.notice {
+  margin-bottom: 30px;
+}
+.notice__box {
+  box-shadow: 5px 5px 3px #dbdbdb;
+  margin: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.notice__content {
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+}
+.notice__content--impact {
+  font-weight: 900;
+}
