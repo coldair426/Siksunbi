@@ -18,11 +18,11 @@ function Admin({ userOwnedInfoData, userOwnedMenuData, slidebox, setSlidebox }) 
   useEffect(() => {
     setSlidebox(false);
   }, [setSlidebox]);
-
-  // category가 변경 되었을 때 스크롤 맨위로 이동
+  // 라우터 변경 되었을 때 스크롤 맨위로 이동
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <div className='admin'>
       <Header setSlidebox={setSlidebox} />

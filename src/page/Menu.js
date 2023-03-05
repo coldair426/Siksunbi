@@ -16,7 +16,6 @@ import { useParams } from 'react-router-dom';
 
 function Menu({ infoData, menuData }) {
   const { id } = useParams(); // URL 파라미터
-
   // id(URL파라미터)로 데이터 픽
   const [info] = useState(infoData.find((v) => v.id === id));
   const [menu] = useState(menuData.filter((v) => v.id === id));
