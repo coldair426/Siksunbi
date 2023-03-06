@@ -2,7 +2,7 @@
 <br/>
 <!-- Index -->
 
-**Index**
+Index
 
 <ul>
     <li><a href="#overview">Overview</a></li>
@@ -21,11 +21,11 @@
 - 프로젝트명 : SIKSUNBI
 - 기간 : 2023.02.26. ~ 2023.00.00.
 - 목표 : 전자메뉴판과 QR코드를 무료로 생성하는 페이지.
-- **배포주소 : http://ssb.dothome.co.kr/**
+- 배포주소 : http://ssb.dothome.co.kr/
 
 # Introduction
 
-5줄 정도
+(5줄 정도)
 Mobile 페이지만 제공합니다.
 
 # Configuration
@@ -34,17 +34,22 @@ Mobile 페이지만 제공합니다.
 
 # Roadmap
 
-- [ ]
-- [ ]
-- [x]
-- 메뉴 블러효과 & 고정
-- 업체별 QR코드 제공(https://developers.google.com/chart/infographics/docs/qr_codes?hl=ko)
-
-<!-- - Mobile sticky header(CSS)
-- Mobile navigation box(React)
-- Location map(Kakao map api)
-- Copy alert(React Bootstrap)
-- Carousel slider(React Bootstrap) -->
+- [x] Web font woff
+- [x] CSS reset (styled-reset)
+- [x] router (react-router-dom)
+- [x] Display the current page
+- [x] Vertical scrolling of the digital menu
+- [x] Blur effect and fixation of `<SlideBox>`
+- [x] Automatically generate QR codes
+- [ ] SEO
+- [ ] PWA
+- [ ] 웹팩
+- [ ] 컨택스트API
+- [ ] 최근 본 메뉴판 목록
+- [ ] 404페이지
+- [ ] 전자메뉴판 번역기
+- [ ] URL직접접속(백엔드)
+- [ ] 서버
 
 # Stacks
 
@@ -58,7 +63,7 @@ Mobile 페이지만 제공합니다.
 
 # Members
 
-- **홍찬기**
+- 홍찬기
   - github : https://github.com/coldair426
   - blog : https://velog.io/@coldair426
   - mail : coldair426@gmail.com
