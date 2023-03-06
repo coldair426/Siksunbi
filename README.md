@@ -1,4 +1,4 @@
-<div align = "center"><img src="./public/logo/logo-full.png" alt="hosaroun-logo" width="700px"></div>
+<div align = "center"><img src="./public/logo/logo-full.png" alt="hosaroun-logo" width="400px"></div>
 <br/>
 <!-- 목차 -->
 
@@ -11,7 +11,6 @@
     <li><a href="#배포주소">배포주소</a></li>
     <li><a href="#browser-support">Browser Support</a></li>
     <li><a href="#stacks">Stacks</a></li>
-    <li><a href="#members">Members</a></li>
 </ul>
 
 ---
@@ -20,20 +19,20 @@
 
 - 프로젝트명 : SIKSUNBI
 - 기간 : 2023.02.26. ~ 2023.00.00.
-- 목표 : -
+- 목표 : 전자메뉴판과 QR코드를 무료로 생성하는 페이지.
+- 팀원 : 홍찬기
+  - github : https://github.com/coldair426
+  - blog : https://velog.io/@coldair426
+  - mail : coldair426@gmail.com
 
 # 페이지 구성
 
-## Mobile
+## Mobile 페이지만 제공합니다.
 
 # 기능
 
-- CSS reset for cross browsing(styled-reset)
-- React Bootstrap
-- Router(React Router-dom)
-- 현재 페이지 표시(React Router-dom)
-
-- @media (prefers-color-scheme: dark) 를 이용한 다크모드 적용 하기
+- 메뉴 블러효과 & 고정
+- 업체별 QR코드 제공(https://developers.google.com/chart/infographics/docs/qr_codes?hl=ko)
 
 <!-- - Mobile sticky header(CSS)
 - Mobile navigation box(React)
@@ -47,34 +46,26 @@
 
 # 배포주소
 
--
+- http://ssb.dothome.co.kr/
 
 # Browser Support
 
-- <img src = "https://img.shields.io/badge/chrome-support-success?style=flat&logo=googlechrome&logoColor=white&labelColor=4285F4" height = "25x">
-- <img src = "https://img.shields.io/badge/Edge-support-success?style=flat&logo=microsoftedge&logoColor=white&labelColor=0078D7" height = "25px">
-- <img src = "https://img.shields.io/badge/safari-support-success?style=flat&logo=safari&logoColor=white&labelColor=000000" height = "25px">
+- <img src = "https://img.shields.io/badge/chrome-support-success?style=flat&logo=googlechrome&logoColor=white&labelColor=4285F4">
+- <img src = "https://img.shields.io/badge/Edge-support-success?style=flat&logo=microsoftedge&logoColor=white&labelColor=0078D7" >
+- <img src = "https://img.shields.io/badge/safari-support-success?style=flat&logo=safari&logoColor=white&labelColor=000000">
 
 # Stacks
 
 ## Environment
 
-- <img src = "https://img.shields.io/badge/VSCode-007ACC?logo=visual studio code" height = "30px">
-- <img src = "https://img.shields.io/badge/Git-white?logo=git" height = "30px">
-- <img src = "https://img.shields.io/badge/GitHub-181717?logo=github" height = "30px">
+- <img src = "https://img.shields.io/badge/VSCode-007ACC?logo=visual studio code" >
+- <img src = "https://img.shields.io/badge/Git-white?logo=git" >
+- <img src = "https://img.shields.io/badge/GitHub-181717?logo=github" >
 
 ## Developement
 
-- <img src = "https://img.shields.io/badge/React-white?logo=react" height = "30px">
-
-# Members
-
-## 홍
-
-- https://github.com/coldair426
-- https://velog.io/@coldair426
-- coldair426@gmail.com
+- <img src = "https://img.shields.io/badge/React-white?logo=react" >
 
 ---
 
-**Full README가 보고 싶다면 [velog]()를 참고하세요.**
+**Full README가 보고 싶다면 [velog](https://velog.io/@coldair426/series/%EC%8B%9D%EC%84%A0%EB%B9%84)를 참고하세요.**
