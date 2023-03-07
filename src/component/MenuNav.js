@@ -3,7 +3,7 @@ import React from 'react';
 function MenuNav({ category, active, setActive }) {
   return (
     <nav className='nav'>
-      <img src='/icon/language.png' alt='translate-icon' />
+      <img src='/icon/language.png' alt='translate-icon' onClick={() => alert('번역기능 준비중입니다. 죄송합니다.')} />
       <div>
         {/* active 클래스 추가하는 jsx */}
         <button onClick={() => setActive(0)} className={active === 0 ? 'nav-intro nav-active' : 'nav-intro'}>
