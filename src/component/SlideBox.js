@@ -36,7 +36,7 @@ function SlideBox({ slidebox, setSlidebox, userOwnedInfoData }) {
             <div className='slide-box__main--row'>
               {/* QR코드 생성기 google api */}
               <a
-                href={'https://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=http://ssb.dothome.co.kr/' + userOwnedInfoData.id}
+                href={'https://chart.googleapis.com/chart?cht=qr&chs=300x300&chl=http://ssb.dothome.co.kr/' + userOwnedInfoData.id}
                 target='_blank'
                 rel='noreferrer'
                 title='QR-Code'>
