@@ -42,15 +42,14 @@ Index
 - [x] Vertical scrolling of the digital menu
 - [x] Blur effect and fixation of `<SlideBox>`
 - [x] Automatically generate QR codes
-- [ ] SEO
-- [ ] PWA
-- [ ] 웹팩
-- [ ] 컨택스트API
+- [x] 404페이지
+- [ ] SEO(검색엔진최적화)
+- [ ] PWA(progressive web app)
+- [ ] Context API
 - [ ] 최근 본 메뉴판 목록
-- [ ] 404페이지
+- [ ] 웹팩
+- [ ] DB, BE
 - [ ] 전자메뉴판 번역기
-- [ ] URL직접접속(백엔드)
-- [ ] 서버
 
 # Stacks
 
