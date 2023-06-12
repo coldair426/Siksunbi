@@ -47,14 +47,15 @@
 
 # Roadmap
 
-- [x] Web font woff
-- [x] CSS reset (styled-reset)
-- [x] router (react-router-dom)
-- [x] Display the current page
-- [x] Vertical scrolling of the digital menu
-- [x] Blur effect and fixation of `<SlideBox>`
-- [x] Automatically generate QR codes
+- [x] URL 파라미터를 이용한 식당 구분 (react-router-dom)
+- [x] QR코드 생성 Api 연결
+- [x] `<SlideBox>`의 블러 및 고정효과
+- [x] 메뉴판 내부의 세부메뉴 가로 스크롤
+- [x] 웹폰트 적용
+- [x] 대시보드의 최근 추가된 메뉴판
 - [x] 404페이지
+- [x] Cross-browsing을 위한 CSS reset (styled-reset)
+- [x] Router (react-router-dom)
 - [ ] 백앤드 바인딩
 - [ ] 메뉴판 번역기능
 
