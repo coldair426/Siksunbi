@@ -1,8 +1,9 @@
+<br/>
 <div align = "center"><img src="./public/logo/logo-full.png" alt="hosaroun-logo" width="400px"></div>
 <br/>
 <!-- Index -->
 
-Index
+**Index**
 
 <ul>
     <li><a href="#overview">Overview</a></li>
@@ -18,14 +19,25 @@ Index
 
 # Overview
 
-- 프로젝트명 : SIKSUNBI
-- 기간 : 2023.02.26. ~ 2023.03.07.
-- 목표 : 전자메뉴판과 QR코드를 쉽게 제공하는 페이지.
-- 배포주소 : http://ssb.dothome.co.kr/
+- **프로젝트명**: SIKSUNBI
+
+- **기간**: 2023.02.26. ~ 2023.03.07.
+
+- **목표**: 음식점의 모바일 메뉴판과 QR코드를 생성해주는 서비스 입니다.
+
+- **배포주소**: http://ssb.dothome.co.kr/
 
 # Introduction
 
-- 사용성을 고려해 모바일 페이지만 구현했습니다.
+**SIKSUNBI**는 음식점의 모바일 메뉴판과 QR코드를 생성해주는 웹 서비스 입니다.
+
+**주요 기능**:
+
+- **메뉴판**: 간편하게 음식점의 모바일 메뉴판을 생성할 수 있고, 누구나 편하게 접속 할 수 있습니다.
+
+- **QR코드**: 음식점의 모바일 메뉴판 URL을 QR코드로 제공하고, 이를 통해 손님이 테이블에서 간편하게 접속할 수 있습니다.
+
+- **모바일 최적화 및 사용자 경험**: 모바일 환경에 최적화된 디자인을 가지고 있습니다. 다양한 모바일 디바이스에서 사용자들은 직관적이고 일관된 사용자 경험을 얻을 수 있으며, 모바일 앱과 유사한 편리함을 느낄 수 있습니다.
 
 # Configuration
 
@@ -43,27 +55,23 @@ Index
 - [x] Blur effect and fixation of `<SlideBox>`
 - [x] Automatically generate QR codes
 - [x] 404페이지
-- [ ] SEO(검색엔진최적화)
-- [ ] PWA(progressive web app)
-- [ ] Context API
-- [ ] 최근 본 메뉴판 목록
-- [ ] 웹팩
-- [ ] DB, BE
-- [ ] 전자메뉴판 번역기
+- [ ] 백앤드 바인딩
+- [ ] 메뉴판 번역기능
 
 # Stacks
 
-- Environment : <img src = "https://img.shields.io/badge/VSCode-007ACC?logo=visual studio code" > <img src = "https://img.shields.io/badge/Git-white?logo=git" > <img src = "https://img.shields.io/badge/GitHub-181717?logo=github" >
+- **Environment**: <img src = "https://img.shields.io/badge/VSCode-007ACC?logo=visual studio code" > <img src = "https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white" > <img src = "https://img.shields.io/badge/GitHub-181717?logo=github" >
 
-- Developement : <img src = "https://img.shields.io/badge/React-white?logo=react" >
+- **Developement**:
+  - **FRONT-END**: <img src = "https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white" > <img src = "https://img.shields.io/badge/CSS-1572B6?logo=CSS3&logoColor=white" >
 
 # Browser Support
 
-<img src = "https://img.shields.io/badge/chrome-support-success?style=flat&logo=googlechrome&logoColor=white&labelColor=4285F4"> <img src = "https://img.shields.io/badge/Edge-support-success?style=flat&logo=microsoftedge&logoColor=white&labelColor=0078D7" > <img src = "https://img.shields.io/badge/safari-support-success?style=flat&logo=safari&logoColor=white&labelColor=000000">
+<img src = "https://img.shields.io/badge/AppleSafari-000000?logo=safari&logoColor=white" > <img src = "https://img.shields.io/badge/GoogleChrome-4285F4?logo=googlechrome&logoColor=white" > <img src = "https://img.shields.io/badge/MicrosoftEdge-0078D7?logo=microsoftedge&logoColor=white" >
 
 # Members
 
-- 홍찬기
+- **HONG**
   - github : https://github.com/coldair426
   - blog : https://velog.io/@coldair426
   - mail : coldair426@gmail.com
